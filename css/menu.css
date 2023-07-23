@@ -1,0 +1,48 @@
+:root{
+    --black:black;
+    --grey:dimgray;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.land{
+    background-image: url("../media/image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 10px;
+}
+header a{
+    text-decoration: none;
+    color:var(--black);
+}
+header{
+    display:flex;
+    padding: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 3em;
+    text-shadow:grey 2px 0px 60%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    flex:1;
+    display:flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:var(--grey);
+}
+.maintext{
+    width: uto;
+    padding: 10px 20px 30px;
+    background-color:rgba(105, 105, 105,.5);
+    margin:auto;
+    font-size: auto;
+    color: rgb(17, 16, 16);
+    border-radius: 10px;
+}
