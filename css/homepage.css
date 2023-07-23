@@ -37,8 +37,6 @@ nav a:hover{
     color:var(--grey);
 }
 .maintext{
-    display:flex;
-    flex-direction:column;
     height:60vh;
     padding: 2em;;
     justify-content:center;
